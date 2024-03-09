@@ -11,7 +11,7 @@ body, h1, h2, h3, p, ul {
   }
   
   .container {
-    max-width: 800px; /* Adjust width as desired */
+    max-width: 1000px; /* Expanded container width */
     margin: 0 auto; /* Center the container */
   }
   
@@ -62,10 +62,9 @@ body, h1, h2, h3, p, ul {
   }
   
   .project img {
-    width: 400px; /* Adjust size as desired */
+    width: 100%; /* Make images full width */
     display: block;
-    margin-right: 20px; /* Add space between image and text */
-    float: left; /* Align to left */
+    margin-bottom: 20px; /* Add space below image */
   }
   
   .project h3 {
@@ -73,8 +72,8 @@ body, h1, h2, h3, p, ul {
     margin-bottom: 10px;
   }
   
-  .project-details p {
-    margin-top: 0;
+  .project-details {
+    text-align: center; /* Align project details center */
   }
   
   /* Footer styles */
@@ -83,15 +82,5 @@ body, h1, h2, h3, p, ul {
     color: #fff;
     padding: 20px 0;
     text-align: center;
-  }
-  
-  /* Media query for smaller screens */
-  @media (max-width: 768px) {
-    .project img {
-      width: 100%; /* Make images full width on smaller screens */
-      float: none; /* Remove float */
-      margin-right: 0; /* Remove margin */
-      margin-bottom: 20px; /* Add margin below image */
-    }
   }
   
