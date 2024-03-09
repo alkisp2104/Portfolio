@@ -60,10 +60,11 @@ body, h1, h2, h3, p, ul {
   .project {
     margin-bottom: 40px;
     overflow: hidden;
+    text-align: center; /* Align project details center */
   }
   
   .project img {
-    width: 400px; /* Make images double their previous size */
+    width: 480px; /* Make images double their previous size */
     display: block;
     margin-bottom: 20px; /* Add space below image */
     margin-left: auto;
