@@ -63,7 +63,7 @@ body {
 }
 
 .project img {
-    width: 250px; /* Make images double their previous size */
+    width: 350px; /* Make images double their previous size */
     display: block;
     margin-bottom: 20px; /* Add space below image */
     margin-left: auto;
