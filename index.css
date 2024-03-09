@@ -54,25 +54,19 @@ body {
 /* Project section styles */
 #projects {
     margin-top: 40px;
+    text-align: left; /* Align project section content to the left */
 }
 
 .project {
     margin-bottom: 40px;
     overflow: hidden;
-    text-align: left; /* Align project details center */
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center vertically */
 }
 
 .project img {
-    width: 350px; /* Make images double their previous size */
-    display: block;
-    margin-bottom: 20px; /* Add space below image */
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.project h3 {
-    margin-bottom: 10px;
-    text-align: center;
+    width: 300px; /* Adjust image width */
+    margin-right: 20px; /* Add space between image and text */
 }
 
 .project-details {
