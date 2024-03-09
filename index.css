@@ -11,7 +11,7 @@ body {
 }
 
 .container {
-    max-width: 800px; /* Expanded container width */
+    max-width: 1000px; /* Expanded container width */
     margin: 0 auto; /* Center the container */
 }
 
@@ -58,7 +58,7 @@ body {
 }
 
 #projects .container {
-    max-width: 800px; /* Match the width of other sections */
+    max-width: 1000px; /* Match the width of other sections */
     margin: 0 auto; /* Center the container */
 }
 
