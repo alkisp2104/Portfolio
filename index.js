@@ -12,7 +12,6 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 
     function openPdf(projectName) {
-        // Replace 'pdf_file_path.pdf' with the actual path to your PDF file
         const pdfFilePath = `pdf_files/${projectName}.pdf`;
         window.open(pdfFilePath, '_blank');
     }
