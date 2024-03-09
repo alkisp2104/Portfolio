@@ -11,7 +11,7 @@ body {
 }
 
 .container {
-    max-width: 1000px; /* Expanded container width */
+    max-width: 1200px; /* Expanded container width */
     margin: 0 auto; /* Center the container */
 }
 
@@ -70,7 +70,7 @@ body {
 }
 
 .project img {
-    width: 200px; /* Adjust image width */
+    width: 280px; /* Adjust image width */
     margin-right: 20px; /* Add space between image and text */
 }
 
