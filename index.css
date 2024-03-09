@@ -59,11 +59,11 @@ body {
 .project {
     margin-bottom: 40px;
     overflow: hidden;
-    text-align: center; /* Align project details center */
+    text-align: left; /* Align project details center */
 }
 
 .project img {
-    width: 160px; /* Make images double their previous size */
+    width: 250px; /* Make images double their previous size */
     display: block;
     margin-bottom: 20px; /* Add space below image */
     margin-left: auto;
