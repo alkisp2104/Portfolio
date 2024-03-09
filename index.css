@@ -11,7 +11,7 @@ body, h1, h2, h3, p, ul {
   }
   
   .container {
-    max-width: 1000px; /* Expanded container width */
+    max-width: 500px; /* Expanded container width */
     margin: 0 auto; /* Center the container */
   }
   
@@ -54,7 +54,6 @@ body, h1, h2, h3, p, ul {
   /* Project section styles */
   #projects {
     margin-top: 40px;
-    text-align: center; /* Center align the project category */
   }
   
   .project {
