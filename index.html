@@ -13,17 +13,17 @@
 <body>
 
   <header class="header" role="banner" id="top">
-    <div class="row">
+    <div class="container">
       <nav class="nav" role="navigation">
         <ul class="nav__items">
+          <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
           <li class="nav__item"><a href="#education" class="nav__link">Education</a></li>
           <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
-          <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
           <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
         </ul>
       </nav>
     </div>
-    <div class="header__text-box row">
+    <div class="header__text-box container">
       <div class="header__text">
         <h1 class="heading-primary">
           <span>Alkiviadis Pavlou</span>
@@ -36,8 +36,24 @@
 
   <main role="main">
 
+    <section id="projects">
+        <h2>Projects</h2>
+        <!-- Add your projects here -->
+        <div class="project">
+            <img src="project1_image.jpg" alt="Project 1">
+            <h3>Project 1 Name</h3>
+            <p>Description of Project 1</p>
+        </div>
+        <div class="project">
+            <img src="project2_image.jpg" alt="Project 2">
+            <h3>Project 2 Name</h3>
+            <p>Description of Project 2</p>
+        </div>
+        <!-- Add more projects as needed -->
+    </section>
+
     <section id="education">
-      <div class="row">
+      <div class="container">
         <h2>Education</h2>
         <ul>
           <li>2017: IGCSE English, A - University of Cambridge</li>
@@ -50,7 +66,7 @@
     </section>
 
     <section id="skills">
-      <div class="row">
+      <div class="container">
         <h2>Skills Summary</h2>
         <h3>Communication:</h3>
         <ul>
@@ -77,87 +93,11 @@
       </div>
     </section>
 
-    <section id="projects">
-      <div class="row">
-        <h2>Projects</h2>
-
-        <div class="work__boxes">
-          <!-- Each div with the work__box class is a project. -->
-
-          <div class="work__box">
-            <div class="work__text">
-              <h3 class="project-name" data-project-name="project1">Portfolio Template</h3>
-              <p>
-                A free Open Source Portfolio for anyone to use for free.
-              </p>
-              <ul class="work__list">
-                <li>HTML</li>
-                <li>SCSS</li>
-                <li>JavaScript</li>
-                <li>Parcel</li>
-              </ul>
-
-              <div class="work__links">
-                <a href="https://hoffstech.com" target="_blank" class="link__text">
-                  Visit Site <span>&rarr;</span>
-                </a>
-                <a href="https://github.com/sbenhoff/portfolio" title="View Source Code" target="_blank">
-                  <img src="./images/github.svg" class="work__code" alt="GitHub">
-                </a>
-              </div>
-            </div>
-            <div class="work__image-box">
-              <img src="./images/project-1.png" class="work__image" alt="Project 1" />
-            </div>
-          </div>
-
-          <!-- Add more projects as needed -->
-        </div>
-      </div>
-    </section>
-
-    <!-- ***** Contact ***** -->
-
-    <section class="contact" id="contact">
-      <div class="row">
-        <h2>Get in Touch</h2>
-        <div class="contact__info">
-          <p>
-            Are you interested in my projects or want to collaborate? Feel free to get in touch.
-          </p>
-          <!-- Replace the email with yours -->
-          <a href="mailto:alkisp2104@gmail.com" class="btn">alkisp2104@gmail.com</a>
-        </div>
-      </div>
-    </section>
-
   </main>
 
-  <!-- ***** Footer ***** -->
-
   <footer role="contentinfo" class="footer">
-    <div class="row">
-      <ul class="footer__social-links">
-        <li class="footer__social-link-item">
-          <a href="https://twitter.com/" title="Twitter Profile">
-            <img src="./images/twitter.svg" class="footer__social-image" alt="Twitter">
-          </a>
-        </li>
-        <li class="footer__social-link-item">
-          <a href="https://github.com/" title="GitHub Profile">
-            <img src="./images/github.svg" class="footer__social-image" alt="GitHub">
-          </a>
-        </li>
-        <li class="footer__social-link-item">
-          <a href="https://linkedin.com/" title="Linkedin Profile">
-            <img src="./images/linkedin.svg" class="footer__social-image" alt="LinkedIn">
-          </a>
-        </li>
-      </ul>
-
-      <p>
-        &copy; 2024 - Alkiviadis Pavlou.
-      </p>
+    <div class="container">
+      <p>&copy; 2024 - Alkiviadis Pavlou.</p>
     </div>
   </footer>
 
