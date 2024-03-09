@@ -63,13 +63,16 @@ body, h1, h2, h3, p, ul {
   }
   
   .project img {
-    width: 200%; /* Make images double their previous size */
+    width: 400px; /* Make images double their previous size */
     display: block;
     margin-bottom: 20px; /* Add space below image */
+    margin-left: auto;
+    margin-right: auto;
   }
   
   .project h3 {
     margin-bottom: 10px;
+    text-align: center;
   }
   
   .project-details {
