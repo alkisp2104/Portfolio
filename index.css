@@ -57,6 +57,11 @@ body {
     text-align: left; /* Align project section content to the left */
 }
 
+#projects .container {
+    max-width: 800px; /* Match the width of other sections */
+    margin: 0 auto; /* Center the container */
+}
+
 .project {
     margin-bottom: 40px;
     overflow: hidden;
@@ -65,7 +70,7 @@ body {
 }
 
 .project img {
-    width: 300px; /* Adjust image width */
+    width: 200px; /* Adjust image width */
     margin-right: 20px; /* Add space between image and text */
 }
 
