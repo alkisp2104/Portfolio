@@ -58,7 +58,7 @@ body {
 }
 
 #projects .container {
-    max-width: 1000px; /* Match the width of other sections */
+    max-width: 1200px; /* Match the width of other sections */
     margin: 0 auto; /* Center the container */
 }
 
@@ -70,7 +70,7 @@ body {
 }
 
 .project img {
-    width: 280px; /* Adjust image width */
+    width: 250px; /* Adjust image width */
     margin-right: 20px; /* Add space between image and text */
 }
 
